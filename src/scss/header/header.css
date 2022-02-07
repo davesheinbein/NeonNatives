@@ -1,0 +1,42 @@
+.header_container {
+  width: 100%;
+  height: 80px;
+  background: white;
+  -webkit-filter: drop-shadow(0 0 50px #333);
+          filter: drop-shadow(0 0 50px #333);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+  font-family: 'captain comic', 'Arial', 'Helvetica', 'sans-serif';
+  color: #00deff;
+}
+
+.header_container .header_logo {
+  margin-left: 5%;
+  width: 300px;
+}
+
+.header_container .header_links_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 5%;
+  text-decoration: none;
+  list-style: none;
+}
+
+.header_container .header_links_container .header_links {
+  text-shadow: 0 0 20px #00deff;
+  margin: 0 20px;
+}
+/*# sourceMappingURL=header.css.map */

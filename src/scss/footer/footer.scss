@@ -1,0 +1,34 @@
+.footer_container {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	background: white;
+	filter: drop-shadow(0 0 50px #333333);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'captain comic', 'Arial', 'Helvetica',
+		'sans-serif';
+	color: #00deff;
+	.footer_links {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		.footer_link {
+			margin: 0 10px;
+			font-size: 30px;
+			color: #00deff;
+			text-shadow: 0 0 5px #00deff;
+			&:hover {
+				text-shadow: 0 0 20px #551a8b;
+				color: #551a8b;
+			}
+		}
+		.footer_line {
+			font-size: 25px;
+			margin: 0 10px;
+			color: #333333;
+		}
+	}
+}
